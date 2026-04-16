@@ -46,25 +46,23 @@ The goal is to help users understand how Merge Sort works while also solving a r
 ### Flowchart
 
 Start
-    User opens the app
-        User selects sorting key (energy or duration)
-            App begins Merge Sort
-                Split playlist into two halves
-                    Recursively split each half until single items remain
-                Begin merging phase
-                    Compare first items of each half
-                        Take the smaller value based on chosen key
-                        Add comparison to step log
-                    Continue comparing until one half is empty
-                Append remaining items
-            Merged list returned
-        Display:
-            Original playlist
-            Sorted playlist
-            Step-by-step Merge Sort log
+- User opens the app
+  - User selects sorting key (energy or duration)
+    - App begins Merge Sort
+      - Split playlist into two halves
+        - Recursively split each half until single items remain
+      - Begin merging phase
+        - Compare first items of each half
+          - Take the smaller value based on chosen key
+          - Add comparison to step log
+        - Continue comparing until one half is empty
+      - Append remaining items
+    - Merged list returned
+  - Display:
+    - Original playlist
+    - Sorted playlist
+    - Step-by-step Merge Sort log
 End
-
-
 
 
 ---
