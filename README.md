@@ -4,6 +4,8 @@
 
 ## Demo video/gif/screenshot of test
 base:
+<img width="2858" height="1452" alt="image" src="https://github.com/user-attachments/assets/726c556d-989d-4c53-a54b-b5b582244c6a" />
+
 https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/base.png?raw=true
 
 Duration:
