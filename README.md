@@ -1,4 +1,4 @@
-# cisc121-playlist-vibe-builder-merge-sort
+<img width="2880" height="972" alt="image" src="https://github.com/user-attachments/assets/fcb4007b-272b-4fb7-b9b2-dec0784e9ccd" /># cisc121-playlist-vibe-builder-merge-sort
 
 # Merge Sort
 
@@ -24,7 +24,7 @@ Energy:
 
 https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/energy1.png?raw=true
 2
-![Uploading image.png…]()
+<img width="2880" height="972" alt="image" src="https://github.com/user-attachments/assets/0057db85-78ba-432f-ac38-8d43e31f2c59" />
 
 https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/energy2.png?raw=true
 
