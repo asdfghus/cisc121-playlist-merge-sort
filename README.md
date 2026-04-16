@@ -3,9 +3,14 @@
 # Merge Sort
 
 ## Demo video/gif/screenshot of test
+base:
 https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/base.png?raw=true
-
-
+Duration:
+https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/duration1.png?raw=true
+https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/duration2.png?raw=true
+Energy:
+https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/energy1.png?raw=true
+https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/energy2.png?raw=true
 ## Problem Breakdown & Computational Thinking
 
 ## Steps to Run
