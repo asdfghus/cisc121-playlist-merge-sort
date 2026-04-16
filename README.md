@@ -1,4 +1,5 @@
-<img width="2880" height="972" alt="image" src="https://github.com/user-attachments/assets/fcb4007b-272b-4fb7-b9b2-dec0784e9ccd" /># cisc121-playlist-vibe-builder-merge-sort
+
+playlist-vibe-builder-merge-sort
 
 # Merge Sort
 
@@ -30,11 +31,89 @@ https://github.com/asdfghus/cisc121-playlist-merge-sort/blob/main/energy2.png?ra
 
 ## Problem Breakdown & Computational Thinking
 
+### Problem Description
+This project demonstrates how Merge Sort can be used to organize a playlist of songs.  
+Each song has:
+- a title  
+- an artist  
+- an energy score  
+- a duration  
+
+The user selects a sorting key (energy or duration), and the app visually shows how Merge Sort compares and merges songs step-by-step.  
+The goal is to help users understand how Merge Sort works while also solving a real-world style problem: organizing a playlist based on different attributes.
+
+---
+### Flowchart
+
+Start
+  User opens the app
+    User selects sorting key (energy or duration)
+      App begins Merge Sort
+        Split playlist into two halves
+          Recursively split each half until single items remain
+        Begin merging phase
+          Compare first items of each half
+            Take the smaller value based on chosen key
+            Add comparison to step log
+          Continue comparing until one half is empty
+        Append remaining items
+      Merged list returned
+    Display:
+      Original playlist
+      Sorted playlist
+      Step-by-step Merge Sort log
+End
+
+
+
+---
+### Computational Thinking
+
+#### **Decomposition**
+- Break playlist into smaller sublists  
+- Recursively sort each half  
+- Merge sorted halves  
+- Display steps to the user  
+
+#### **Pattern Recognition**
+- Repeated splitting  
+- Repeated comparisons  
+- Repeated merging  
+- Same structure at every recursion level  
+
+#### **Abstraction**
+- Show only:
+  - comparisons  
+  - chosen elements  
+  - merged sublists  
+- Hide recursion details  
+
+#### **Algorithm Design**
+- **Input:** playlist + sorting key  
+- **Process:** Merge Sort with step logging  
+- **Output:** sorted playlist + visual step log  
+- Gradio UI handles user interaction  
+
+---
+
+
 ## Steps to Run
 
+### Run on Hugging Face
+1. Open my Hugging Face Space:  
+   **<YOUR HUGGING FACE LINK>**
+2. Choose a sorting key (energy or duration)
+3. Click **Sort Playlist**
+4. View:
+   - the original playlist  
+   - the sorted playlist  
+   - the Merge Sort step-by-step log  
+
 ## Hugging Face Link
+https://huggingface.co/spaces/saefwdh/playlist-merge-sort-AyaanJalal
 
 ## Author & AI Acknowledgment
-
+Created by **Ayaan Jalal**.  
+Microsoft Copilot was used to help plan, structure, and explain parts of this project, as well as a search engine partner at level 3 A.I. Usage.
 
 
