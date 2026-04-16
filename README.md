@@ -95,6 +95,25 @@ End
 
 ---
 
+## Testing & Verification
+
+I tested the app with several playlists and sorting keys to ensure Merge Sort worked correctly.
+
+### Tests performed:
+- Sorting by energy (increasing)
+- Sorting by duration (increasing)
+- Playlist with duplicate values (e.g., two songs with same energy)
+- Playlist with only one song (edge case)
+- Empty playlist (edge case)
+
+### Expected vs Actual:
+- Songs always appeared in correct sorted order
+- Step-by-step Merge Sort log matched the algorithm’s behavior
+- No crashes or errors during sorting
+- UI updated correctly after each run
+
+Screenshots^^ above show successful runs.
+
 
 ## Steps to Run
 
